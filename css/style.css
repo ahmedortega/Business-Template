@@ -1,8 +1,101 @@
 body{
     font-family: 'Gabriela', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    overflow: hidden;
+    margin: auto
+}
+.clearfix{
+    clear: both;
+}
+/* Top Of Page */
+.top-page{
+    background-color: #f0f2f4;
+    width: 100%;
+    height: 42px;
+    position: relative;
+}
+.top-page ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+.top-page ul li{
+    float: left;
+    padding: 5 20px;
+}
+.top-page ul li{
+    font-size: 16px;
+}
+.top-page ul li i{
+    font-size: 22px;
+    padding: 0 5px;
+}
+.top-page ul li:last-of-type i{
+    font-size: 26px;
+    color: #1287bf;
+}
+/*End Top */
+
+/************* Header **************/
+/* top Header */
+.top-header{
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+    background-color: #eee;
+}
+.top-header .logo{
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    float: left;
+}
+.top-header .logo i{
+    font-size: 50pt;
+    color: #dd2a24;
+    padding: 40px 5px;
+    float: left;
+}
+.top-header .logo .title{
+    padding-left: 108px;
+    padding-top: 45px;
+    width: 100%;
+    margin: 0;
+}
+.top-header .logo .title p{
+    margin: 0;
+    font-size: 12px;
+    padding-left: 0px;
+    margin-left: -13px;
+}
+.top-header .logo .title h2{
+    font-weight: 100;
+    margin: 0;
+}
+/* Navbar */
+nav{
+    float: right;
+    margin: 35px auto;
+    padding: 0;
+    width: 70%;
+}
+nav ul{
+    float: right;
+    margin-right: 100px;
+    list-style-type: none;
+    margin-top: 0;
+}
+nav ul li{
+    float: left;
+    padding: 20px;
 }
 
-
+/*** End Top Haeder ****/
 
 
 
